@@ -4,7 +4,7 @@ import 'dart:math';
 import '../models/movie.dart';
 
 // A list of movies
-final List<Movie> initialData = List.generate(50,
+final List<Movie> initialData = List.generate(40,
         (index) => Movie(
         title: "Movie $index",
         runtime: "${Random().nextInt(100) + 60} minutes"));
